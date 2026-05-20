@@ -10,7 +10,7 @@ const Navbar = () => {
 					<img src="/images/logo.svg" alt="logo"/>
 					<p className="font-bold">Vishesh's Portfolio</p>
 				</div>
-				<ul className="flex items-center gap-6">
+				<ul className="flex items-center gap-6 cursor-pointer">
 					{navLinks.map(({ id, name }) => (
 						<li key={id}>
 							<p>{name}</p>
