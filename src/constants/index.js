@@ -102,27 +102,35 @@ const blogPosts = [
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
+    items: ["React.js", "Next.js", "HTML", "CSS"],
   },
   {
     category: "Mobile",
-    items: ["React Native", "Expo"],
+    items: ["React Native"],
   },
   {
     category: "Styling",
-    items: ["Tailwind CSS", "Sass", "CSS"],
+    items: ["Tailwind CSS", "GSAP", "CSS"],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    items: ["Node.js", "Express", "NestJS", "JavaScript", "Flask"],
   },
   {
     category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    items: ["MongoDB", "PostgreSQL", "MySQL"],
   },
   {
     category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
+    items: ["Git", "GitHub", "Docker","Kubernetes", "CI/CD Pipelines"],
+  },
+  {
+    category: "Data Science",
+    items: ["Python", "Matplotlib", "Seaborn", "Pandas"],
+  },
+  {
+    category: "Machine Learning",
+    items: ["KNN", "Random Forest", "Linear,Logistic Regression", "Reinforced Learning"],
   },
 ];
 
@@ -427,10 +435,10 @@ const ABOUT_LOCATION = {
       subtitle: "Meet the Developer Behind the Code",
       image: "/images/adrian.jpg",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
+        "Hey! I’m Vishesh 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
         "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
         "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, playing football or impulse-buying gadgets I absolutely convinced myself I needed 😅",
       ],
     },
   ],
