@@ -102,7 +102,7 @@ const blogPosts = [
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "HTML", "CSS"],
+    items: ["React.js,", "Next.js,", "HTML,", "CSS"],
   },
   {
     category: "Mobile",
@@ -110,27 +110,27 @@ const techStack = [
   },
   {
     category: "Styling",
-    items: ["Tailwind CSS", "GSAP", "CSS"],
+    items: ["Tailwind CSS,", "GSAP,", "CSS"],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "JavaScript", "Flask"],
+    items: ["Node.js,", "Express,", "NestJS,", "JavaScript,", "Flask"],
   },
   {
     category: "Database",
-    items: ["MongoDB", "PostgreSQL", "MySQL"],
+    items: ["MongoDB,", "PostgreSQL,", "MySQL,"],
   },
   {
     category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker","Kubernetes", "CI/CD Pipelines"],
+    items: ["Git,", "GitHub,", "Docker,","Kubernetes,", "Pipelines"],
   },
   {
     category: "Data Science",
-    items: ["Python", "Matplotlib", "Seaborn", "Pandas"],
+    items: ["Python,", "Matplotlib,", "Seaborn,", "Pandas,"],
   },
   {
-    category: "Machine Learning",
-    items: ["KNN", "Random Forest", "Linear,Logistic Regression", "Reinforced Learning"],
+    category: "M.L.",
+    items: ["KNN,", "Random Forest,", "Reinforced Learning"],
   },
 ];
 
