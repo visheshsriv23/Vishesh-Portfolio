@@ -77,25 +77,24 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Sep 2, 2025",
-    title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-    image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+    date: "Mar 22, 2026",
+    title: "Building SugarWatch: Integrating Barcode Scanning and Nutrition Tracking via Open Food Facts API",
+    image: "/images/blog1.png", // Keep or update your asset paths
+    link: "https://github.com/visheshsriv23/SugarWatch"
   },
   {
     id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
+    date: "May 18, 2026",
+    title: "Behind Mocktail Matrix: Crafting Fluid UI Experiences and Interactive Dynamic Forms",
     image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    link: "https://github.com/visheshsriv23/Mocktail-Matrix"
   },
   {
     id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
+    date: "Apr 07, 2026",
+    title: "Demystifying EasyRest: Architecting Scalable RESTful API Structures for Modern Web Frameworks",
     image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    link: "https://github.com/visheshsriv23/EasyRest"
   },
 ];
 
@@ -140,28 +139,21 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/visheshsriv23",
   },
   {
     id: 2,
-    text: "Platform",
+    text: "Mail",
     icon: "/icons/atom.svg",
     bg: "#4bcb63",
-    link: "https://jsmastery.com/",
+    link: "https://mail.google.com/mail/?view=cm&fs=1&to=kingvishesh27@gmail.com",
   },
   {
     id: 3,
-    text: "Twitter/X",
-    icon: "/icons/twitter.svg",
-    bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
-  },
-  {
-    id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "https://www.linkedin.com/in/vishesh-srivastava-29572233a/",
   },
 ];
 
@@ -230,116 +222,53 @@ const WORK_LOCATION = {
   icon: "/icons/work.svg",
   kind: "folder",
   children: [
-    // ▶ Project 1
-    {
-      id: 5,
-      name: "Nike Ecommerce Website Application",
-      icon: "/images/folder.png",
-      kind: "folder",
-      position: "top-10 left-5", // icon position inside Finder
-      windowPosition: "top-[5vh] left-5", // optional: Finder window position
-      children: [
-        {
-          id: 1,
-          name: "Nike Project.txt",
-          icon: "/images/txt.png",
-          kind: "file",
-          fileType: "txt",
-          position: "top-5 left-10",
-          description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
-          ],
-        },
-        {
-          id: 2,
-          name: "nike.com",
-          icon: "/images/safari.png",
-          kind: "file",
-          fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
-          position: "top-10 right-20",
-        },
-        {
-          id: 4,
-          name: "nike.png",
-          icon: "/images/image.png",
-          kind: "file",
-          fileType: "img",
-          position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 right-20",
-        },
-      ],
-    },
 
-    // ▶ Project 2
     {
-      id: 6,
-      name: "AI Resume Analyzer",
-      icon: "/images/folder.png",
-      kind: "folder",
-      position: "top-52 right-80",
-      windowPosition: "top-[20vh] left-7",
-      children: [
-        {
-          id: 1,
-          name: "AI Resume Analyzer Project.txt",
-          icon: "/images/txt.png",
-          kind: "file",
-          fileType: "txt",
-          position: "top-5 right-10",
-          description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
-          ],
-        },
-        {
-          id: 2,
-          name: "ai-resume-analyzer.com",
-          icon: "/images/safari.png",
-          kind: "file",
-          fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
-          position: "top-20 left-20",
-        },
-        {
-          id: 4,
-          name: "ai-resume-analyzer.png",
-          icon: "/images/image.png",
-          kind: "file",
-          fileType: "img",
-          position: "top-52 left-80",
-          imageUrl: "/images/project-2.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 left-5",
-        },
-      ],
+  id: 6,
+  name: "SugarWatch",
+  icon: "/images/folder.png",
+  kind: "folder",
+  position: "top-10 left-44", // Spaced out from Nike (left-5)
+  windowPosition: "top-[20vh] left-7",
+  children: [
+    {
+      id: 1,
+      name: "SugarWatch Project.txt",
+      icon: "/images/txt.png",
+      kind: "file",
+      fileType: "txt",
+      position: "top-5 left-10",
+      description: [
+        "SugarWatch is an intelligent nutritional tracking platform engineered to help users monitor sugar intake and make healthier dietary choices.",
+        "Featuring an integrated barcode scanner powered by the Open Food Facts API, it pulls instant ingredient and nutritional data directly from product packages.",
+        "Instead of manual logging, it gives users real-time breakdowns, clear metrics, and dynamic warnings about hidden sugars.",
+        "It's built using the MERN stack (MongoDB, Express.js, React, Node.js) with a beautifully responsive Tailwind CSS frontend."
+      ]
     },
+    {
+      id: 2,
+      name: "sugarwatch.com",
+      icon: "/images/safari.png",
+      kind: "file",
+      fileType: "url",
+      href: "https://sugarwatch.onrender.com/auth/signup",
+      position: "top-10 right-20"
+    },
+    {
+      id: 4,
+      name: "sugarwatch.png",
+      icon: "/images/image.png",
+      kind: "file",
+      fileType: "img",
+      position: "top-52 right-40",
+      image: "/images/blog1.png"
+    }
+  ]
+},
 
-    // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "Mojito Site",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -347,48 +276,82 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "Mojito Site Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
-          ],
+            "The Mojito Site is a highly creative and visually stunning web experience built to showcase premium beverage aesthetics.",
+            "Instead of static landing pages, it brings the user interface to life using interactive 3D elements and smooth, physics-based transitions.",
+            "Think of it as a virtual lounge where fluid animations, responsive layouts, and rich textures make the digital experience feel entirely tangible.",
+            "Leveraging modern web tools, it combines cutting-edge frontend animations with responsive structure for a top-tier premium look."
+          ]
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "mojito-site.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
-          position: "top-10 right-20",
+          href: "https://mocktail-matrix.vercel.app/",
+          position: "top-10 right-20"
         },
         {
           id: 4,
-          name: "food-delivery-app.png",
+          name: "mojito-site.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-3.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 right-20",
-        },
-      ],
+          image: "/images/blog2.png"
+        }
+      ]
     },
-  ],
+
+    {
+  id: 8,
+  name: "Easy Rest",
+  icon: "/images/folder.png",
+  kind: "folder",
+  position: "top-52 left-44", // Cleanly drops it below SugarWatch, next to nothing
+  windowPosition: "top-[45vh] left-5",
+  children: [
+    {
+      id: 1,
+      name: "Easy Rest Project.txt",
+      icon: "/images/txt.png",
+      kind: "file",
+      fileType: "txt",
+      position: "top-5 left-10",
+      description: [
+                "Easy Rest is a comprehensive full-stack vacation rental and room booking platform designed to simplify travel accommodations.",
+                "It features an intuitive user interface for exploring properties, managing active room listings, and calculating dynamically tracked pricing with integrated GST/taxes.",
+                "Engineered with a responsive architectural framework, it delivers optimized search metrics, fast UI responsiveness, and secure data management.",
+                "Designed with smooth micro-interactions to provide an elegant, hassle-free booking environment for hosts and guests alike."
+            ]
+    },
+    {
+      id: 2,
+      name: "easy-rest.com",
+      icon: "/images/safari.png",
+      kind: "file",
+      fileType: "url",
+      href: " https://easyrest-8d3t.onrender.com/listings",
+      position: "top-10 right-20"
+    },
+    {
+      id: 4,
+      name: "easy-rest.png",
+      icon: "/images/image.png",
+      kind: "file",
+      fileType: "img",
+      position: "top-52 right-20", 
+      image: "/images/blog3.png"
+    }
+  ]
+}
+  ]
 };
 
 const ABOUT_LOCATION = {
@@ -405,7 +368,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/vishesh.jpg",
     },
     {
       id: 2,
@@ -414,7 +377,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      imageUrl: "/images/vishesh-2.jpg",
     },
     {
       id: 3,
@@ -423,7 +386,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
+      imageUrl: "/images/vishesh-3.jpeg",
     },
     {
       id: 4,
@@ -435,10 +398,10 @@ const ABOUT_LOCATION = {
       subtitle: "Meet the Developer Behind the Code",
       image: "/images/adrian.jpg",
       description: [
-        "Hey! I’m Vishesh 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, playing football or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+       "Hey! I'm Vishesh 👋, a full-stack developer who loves bridging the gap between high-performance logic and beautiful, micro-interactive user experiences.",
+        "I specialize in the MERN stack, Next.js, and creating fluid, immersive interfaces using tools like GSAP and Three.js. If it involves complex state management, custom 3D web graphics, or a Docker container that refuses to cooperate at 2 AM, I'm probably working on it.",
+        "I'm big on meticulous UI design, bulletproof UX architecture, and writing clean, scalable code that doesn't require an archeological dig to debug.",
+        "Outside of development, you can find me analyzing predictive ML models, organizing local football tournaments, over-engineering interactive birthday websites for my favorite people, and sipping overpriced coffee while trying to justify my latest tech gadget purchase 😅",
       ],
     },
   ],

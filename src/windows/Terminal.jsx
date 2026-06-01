@@ -7,7 +7,7 @@ import WindowControls from "#components/WindowControls.jsx"
 const Terminal = () => {
 	return (
 		<>
-			<div id="window-header">
+			<div id="window-header" className="flex items-center justify-between p-3 bg-[#2c2c2e] border-b border-white/5">
 				<WindowControls target="terminal" />
 				<h2>Tech Stack</h2>
 			</div>

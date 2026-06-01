@@ -4,7 +4,7 @@ import Welcome from "#components/Welcome.jsx"
 import Dock from "#components/Dock.jsx"
 import { Draggable } from "gsap/Draggable";
 import gsap from "gsap";
-import { Terminal } from "#windows/index.js"
+import { Terminal, Safari, Resume, Finder, Text, Image, Contact } from "#windows/index.js"
 
 gsap.registerPlugin(Draggable);
 
@@ -16,6 +16,12 @@ function App() {
       <Welcome />
       <Dock />
       <Terminal />
+      <Safari />
+      <Resume />
+      <Finder />
+      <Text />
+      <Image />
+      <Contact />
     </>
   )
 }
